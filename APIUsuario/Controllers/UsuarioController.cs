@@ -76,7 +76,6 @@ namespace APIUsuario.api.Controllers
             };
         
             // Setting Header
-            //HttpContext.Current.Response.Headers.Add("Paging-Headers", JsonConvert.SerializeObject (paginationMetadata));
             HttpContext.Response.Headers.Add("Paging-Headers", JsonConvert.SerializeObject (paginationMetadata));
 
             // Returing List of Customers Collections
