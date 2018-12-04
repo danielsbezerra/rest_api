@@ -1,2 +1,6 @@
-/APIUsuario/bin
-/APIUsuario/obj
+APIUsuario/bin
+APIUsuario/obj
+APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.pdb
+APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.dll
+APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.dll
+APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.pdb
