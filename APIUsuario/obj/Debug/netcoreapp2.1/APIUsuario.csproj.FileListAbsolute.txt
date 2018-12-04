@@ -1,0 +1,28 @@
+/home/dbezerra/Documents/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.deps.json
+/home/dbezerra/Documents/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.runtimeconfig.json
+/home/dbezerra/Documents/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.runtimeconfig.dev.json
+/home/dbezerra/Documents/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.dll
+/home/dbezerra/Documents/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.pdb
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.csprojAssemblyReference.cache
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.csproj.CoreCompileInputs.cache
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorAssemblyInfo.cache
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorAssemblyInfo.cs
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.AssemblyInfoInputs.cache
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.AssemblyInfo.cs
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorTargetAssemblyInfo.cache
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.dll
+/home/dbezerra/Documents/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.pdb
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.deps.json
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.runtimeconfig.json
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.runtimeconfig.dev.json
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.dll
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/bin/Debug/netcoreapp2.1/APIUsuario.pdb
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.csprojAssemblyReference.cache
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.csproj.CoreCompileInputs.cache
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorAssemblyInfo.cache
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorAssemblyInfo.cs
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.AssemblyInfoInputs.cache
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.AssemblyInfo.cs
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.RazorTargetAssemblyInfo.cache
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.dll
+C:/Users/dbezerra/Documents/Visual Studio 2017/projects/APIUsuario/APIUsuario/obj/Debug/netcoreapp2.1/APIUsuario.pdb
