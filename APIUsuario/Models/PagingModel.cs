@@ -2,19 +2,19 @@ namespace APIUsuario.Models
 {  
     public class PagingModel
     {  
-        const int maxPageSize = 50;
+        const int maxItemsPerPage = 50;
     
         public int pageNumber { get; set; } = 1;
     
-        public int _pageSize { get; set; } = 20;
+        public int _itemsPerPage { get; set; } = 20;
     
-        public int pageSize
+        public int itemsPerPage
         {
     
-            get { return _pageSize; }
+            get { return _itemsPerPage; }
             set
             {
-                _pageSize = (value > maxPageSize) ? maxPageSize : value;
+                _itemsPerPage = (value > maxItemsPerPage) ? maxItemsPerPage : value;
             }
         }
     }  

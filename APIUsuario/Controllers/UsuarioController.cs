@@ -33,7 +33,7 @@ namespace APIUsuario.api.Controllers
 
 
         [HttpGet]
-        public IEnumerable<Usuario> GetAll([FromQuery]PagingModel pagingparametermodel)
+        public IEnumerable<Usuario> GetAll([FromQuery]PagingModel pagingmodel)
         {
             // Return List of Customer  
             var source = (from customer in _context.Usuario.  
@@ -43,36 +43,50 @@ namespace APIUsuario.api.Controllers
             // Get # of rows
             int count = source.Count();
         
-            // Parameter is passed from query string. If it is null, then default value will be pageNumber:1
-            int CurrentPage = pagingparametermodel.pageNumber;
+            // Parameter is passed from query string. If it is null, then default defined in the model (1)
+            int CurrentPage = pagingmodel.pageNumber;
         
-            // Parameter is passed from query string. If it is null, then default value will be pageSize:20
-            int PageSize = pagingparametermodel.pageSize;
+            // Parameter is passed from query string. If it is null, then default defined in the model (20)
+            int ItemsPerPage = pagingmodel.itemsPerPage;
         
             // Display TotalCount to Records to User
             int TotalCount = count;
         
-            // Calculating Totalpage by Dividing (No of Records / Pagesize)
-            int TotalPages = (int)Math.Ceiling(count / (double)PageSize);
+            // Calculating Totalpage by Dividing (# of Records / ItemsPerPage)
+            int TotalPages = (int)Math.Ceiling(count / (double)ItemsPerPage);
         
-            // Returns List of Customer after applying Paging
-            var items = source.Skip((CurrentPage - 1) * PageSize).Take(PageSize).ToList();
+            // Returns List of Usuarios after applying Paging
+            var items = source.Skip((CurrentPage - 1) * ItemsPerPage).Take(ItemsPerPage).ToList();
         
             // if CurrentPage is greater than 1 means it has previousPage
-            var previousPage = CurrentPage > 1 ? "Yes" : "No";
-        
+            string previousPageLink;
+            if (CurrentPage > 1) {
+                previousPageLink = "/url/previous";
+            }
+            else {
+                previousPageLink = "";
+            }
+
+
             // if TotalPages is greater than CurrentPage means it has nextPage
-            var nextPage = CurrentPage < TotalPages ? "Yes" : "No";
-        
+            string nextPageLink;
+            if (CurrentPage < TotalPages) {
+                nextPageLink = "/url/next";
+            }
+            else {
+                nextPageLink = "";
+            }
+
+
             // Object which we are going to send in header
             var paginationMetadata = new
             {  
                 totalCount = TotalCount,
-                pageSize = PageSize,
+                itemsPerPage = ItemsPerPage,
                 currentPage = CurrentPage,
                 totalPages = TotalPages,
-                previousPage,
-                nextPage
+                previousPageLink,
+                nextPageLink
             };
         
             // Setting Header
@@ -124,10 +138,13 @@ namespace APIUsuario.api.Controllers
             }
 
             usuario.ds_nome = item.ds_nome;
+            usuario.id_local_acesso = item.id_local_acesso;
             usuario.ds_login = item.ds_login;
             usuario.ds_email = item.ds_email;
             usuario.st_ativo = item.st_ativo;
             usuario.st_troca_senha = item.st_troca_senha;
+            usuario.st_excluido = item.st_excluido;
+            
             
             _context.Usuario.Update(usuario);
             _context.SaveChanges();
